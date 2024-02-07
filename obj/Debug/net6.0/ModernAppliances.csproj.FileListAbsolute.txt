@@ -1,0 +1,15 @@
+/Users/xianghangxi/Documents/SAIT/Sem 2/Object-Oriented Programming 2 (CPRG-211-A)/Assignment 1/Assignment1Skeleton/A1ModernAppliances/A1ModernAppliances/bin/Debug/net6.0/ModernAppliances
+/Users/xianghangxi/Documents/SAIT/Sem 2/Object-Oriented Programming 2 (CPRG-211-A)/Assignment 1/Assignment1Skeleton/A1ModernAppliances/A1ModernAppliances/bin/Debug/net6.0/appliances.txt
+/Users/xianghangxi/Documents/SAIT/Sem 2/Object-Oriented Programming 2 (CPRG-211-A)/Assignment 1/Assignment1Skeleton/A1ModernAppliances/A1ModernAppliances/bin/Debug/net6.0/ModernAppliances.deps.json
+/Users/xianghangxi/Documents/SAIT/Sem 2/Object-Oriented Programming 2 (CPRG-211-A)/Assignment 1/Assignment1Skeleton/A1ModernAppliances/A1ModernAppliances/bin/Debug/net6.0/ModernAppliances.runtimeconfig.json
+/Users/xianghangxi/Documents/SAIT/Sem 2/Object-Oriented Programming 2 (CPRG-211-A)/Assignment 1/Assignment1Skeleton/A1ModernAppliances/A1ModernAppliances/bin/Debug/net6.0/ModernAppliances.dll
+/Users/xianghangxi/Documents/SAIT/Sem 2/Object-Oriented Programming 2 (CPRG-211-A)/Assignment 1/Assignment1Skeleton/A1ModernAppliances/A1ModernAppliances/bin/Debug/net6.0/ModernAppliances.pdb
+/Users/xianghangxi/Documents/SAIT/Sem 2/Object-Oriented Programming 2 (CPRG-211-A)/Assignment 1/Assignment1Skeleton/A1ModernAppliances/A1ModernAppliances/obj/Debug/net6.0/ModernAppliances.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xianghangxi/Documents/SAIT/Sem 2/Object-Oriented Programming 2 (CPRG-211-A)/Assignment 1/Assignment1Skeleton/A1ModernAppliances/A1ModernAppliances/obj/Debug/net6.0/ModernAppliances.AssemblyInfoInputs.cache
+/Users/xianghangxi/Documents/SAIT/Sem 2/Object-Oriented Programming 2 (CPRG-211-A)/Assignment 1/Assignment1Skeleton/A1ModernAppliances/A1ModernAppliances/obj/Debug/net6.0/ModernAppliances.AssemblyInfo.cs
+/Users/xianghangxi/Documents/SAIT/Sem 2/Object-Oriented Programming 2 (CPRG-211-A)/Assignment 1/Assignment1Skeleton/A1ModernAppliances/A1ModernAppliances/obj/Debug/net6.0/ModernAppliances.csproj.CoreCompileInputs.cache
+/Users/xianghangxi/Documents/SAIT/Sem 2/Object-Oriented Programming 2 (CPRG-211-A)/Assignment 1/Assignment1Skeleton/A1ModernAppliances/A1ModernAppliances/obj/Debug/net6.0/ModernAppliances.dll
+/Users/xianghangxi/Documents/SAIT/Sem 2/Object-Oriented Programming 2 (CPRG-211-A)/Assignment 1/Assignment1Skeleton/A1ModernAppliances/A1ModernAppliances/obj/Debug/net6.0/refint/ModernAppliances.dll
+/Users/xianghangxi/Documents/SAIT/Sem 2/Object-Oriented Programming 2 (CPRG-211-A)/Assignment 1/Assignment1Skeleton/A1ModernAppliances/A1ModernAppliances/obj/Debug/net6.0/ModernAppliances.pdb
+/Users/xianghangxi/Documents/SAIT/Sem 2/Object-Oriented Programming 2 (CPRG-211-A)/Assignment 1/Assignment1Skeleton/A1ModernAppliances/A1ModernAppliances/obj/Debug/net6.0/ModernAppliances.genruntimeconfig.cache
+/Users/xianghangxi/Documents/SAIT/Sem 2/Object-Oriented Programming 2 (CPRG-211-A)/Assignment 1/Assignment1Skeleton/A1ModernAppliances/A1ModernAppliances/obj/Debug/net6.0/ref/ModernAppliances.dll

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "z232TDj7a+qHoNzqfM97cw7agJ44mo9Dm2SyNr2+KFwNU1DW0AbVrnS0kkGjQ/nuqjMaWr2uIuo4BxsSMkxiEw==",
+  "success": true,
+  "projectFilePath": "/Users/xianghangxi/Documents/SAIT/Sem 2/Object-Oriented Programming 2 (CPRG-211-A)/Assignment 1/Assignment1Skeleton/A1ModernAppliances/A1ModernAppliances/ModernAppliances.csproj",
+  "expectedPackageFiles": [
+    "/Users/xianghangxi/.nuget/packages/microsoft.netcore.app.ref/6.0.26/microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "/Users/xianghangxi/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.26/microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "/Users/xianghangxi/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.26/microsoft.netcore.app.host.osx-arm64.6.0.26.nupkg.sha512"
+  ],
+  "logs": []
+}
