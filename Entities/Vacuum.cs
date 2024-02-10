@@ -1,4 +1,4 @@
-﻿using ModernAppliances.Entities.Abstract;
+using ModernAppliances.Entities.Abstract;
 
 namespace ModernAppliances.Entities
 {
@@ -29,7 +29,27 @@ namespace ModernAppliances.Entities
         /// </summary>
         public short BatteryVoltage
         {
-            get { return _batteryVoltage; }
+            get 
+            { 
+               return _batteryVoltage; 
+            }
+        }
+
+        // Display battery voltage in specified format
+        public string BatteryVoltageDisplay
+        {
+            get
+            {
+                switch (_batteryVoltage)
+                {
+                    case 18:
+                        return "Low";
+                    case 24:
+                        return "High";                    
+                    default:
+                        return "(Unknown)";
+                }
+            }
         }
 
         /// <summary>
@@ -45,8 +65,9 @@ namespace ModernAppliances.Entities
         /// <param name="batteryVoltage">Battery voltage</param>
         public Vacuum(long itemNumber, string brand, int quantity, decimal wattage, string color, decimal price, string grade, short batteryVoltage) : base(itemNumber, brand, quantity, wattage, color, price)
         {
-            this._grade = grade;
-            this._batteryVoltage = batteryVoltage;
+            this._grade = grade;            
+            this._batteryVoltage = batteryVoltage;            
+            
         }
 
         public override string FormatForFile()
@@ -67,7 +88,7 @@ namespace ModernAppliances.Entities
                 string.Format("Color: {0}", Color) + "\n" +
                 string.Format("Price: {0}", Price) + "\n" +
                 string.Format("Grade: {0}", Grade) + "\n" +
-                string.Format("Battery Voltage: {0}", BatteryVoltage);
+                string.Format("Battery Voltage: {0}", BatteryVoltageDisplay);
 
             return display;
         }
