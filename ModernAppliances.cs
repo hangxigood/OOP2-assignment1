@@ -1,14 +1,9 @@
-﻿using ModernAppliances.Entities;
+using ModernAppliances.Entities;
 using ModernAppliances.Entities.Abstract;
 
 namespace ModernAppliances
 {
-    /// <summary>
-    /// Manager class for Modern Appliances
-    /// </summary>
-    /// <remarks>Do not modify this file</remarks>
-    /// <remarks>Author: Nick Hamnett (nick.hamnett@sait.ca)</remarks>
-    /// <remarks>Date: January 17, 2023</remarks>
+
     internal abstract class ModernAppliances
     {
         /// <summary>
@@ -88,7 +83,7 @@ namespace ModernAppliances
             Console.WriteLine("3 – Microwaves");
             Console.WriteLine("4 – Dishwashers");
 
-            Console.Write("Enter type of appliance:");
+            Console.Write("Enter type of appliance:\n");
 
             int applianceTypeNum;
             bool parsedApplianceType = int.TryParse(Console.ReadLine(), out applianceTypeNum);
@@ -347,7 +342,7 @@ namespace ModernAppliances
         {
             if (appliances.Count > 0)
             {
-                Console.WriteLine("Found appliances:");
+                Console.WriteLine("Matching Appliances:");
                 Console.WriteLine();
 
                 // Display found appliances until either end of list is reached or number of appliances requested is shown.
