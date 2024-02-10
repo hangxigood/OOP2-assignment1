@@ -1,4 +1,4 @@
-﻿using ModernAppliances.Entities.Abstract;
+using ModernAppliances.Entities.Abstract;
 
 namespace ModernAppliances.Entities
 {
@@ -63,6 +63,25 @@ namespace ModernAppliances.Entities
             this._height = height;
         }
 
+        // Display number of doors in specified format
+        public string DoorsDisplay
+        {
+            get
+            {
+                switch (_doors)
+                {
+                    case 2:
+                        return "Double Door";
+                    case 3:
+                        return "Three Doors";
+                    case 4:
+                        return "Four Doors";
+                    default:
+                        return "(Unknown)";
+                }
+            }
+        }
+
         public override string FormatForFile()
         {
             string commonFormatted = base.FormatForFile();
@@ -79,7 +98,7 @@ namespace ModernAppliances.Entities
                 string.Format("Wattage: {0}", Wattage) + "\n" +
                 string.Format("Color: {0}", Color) + "\n" +
                 string.Format("Price: {0}", Price) + "\n" +
-                string.Format("Doors: {0}", Doors) + "\n" +
+                string.Format("Doors: {0}", DoorsDisplay) + "\n" +
                 string.Format("Width: {0}", Width) + "\n" +
                 string.Format("Height: {0}", Height);
 
